@@ -8,4 +8,6 @@ async function fetchData() {
   return data;
 }
 
-fetchData();
+fetchData().then((value) => {
+  console.log(value);
+});
